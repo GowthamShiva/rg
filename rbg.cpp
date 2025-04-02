@@ -343,3 +343,85 @@ client.publish(&quot;environment/temperature&quot;, temperature)
 client.publish(&quot;environment/humidity&quot;, humidity)
 client.publish(&quot;environment/air_quality&quot;, air_quality)
 time.sleep(5) # Publish every 5 seconds
+
+# Experiment 2: Collecting and Analyzing Environmental Data  
+DHTxx test!  
+Humidity: 45.2 %   Temperature: 27.3 *C  
+Humidity: 44.8 %   Temperature: 27.5 *C  
+Humidity: 45.0 %   Temperature: 27.4 *C  
+Humidity: 44.9 %   Temperature: 27.6 *C  
+Humidity: 45.1 %   Temperature: 27.5 *C  
+Failed to read from DHT sensor!  
+Humidity: 45.3 %   Temperature: 27.7 *C  
+
+[Graph Generated: Temperature & Humidity over Time]  
+
+--------------------------------------------------
+
+# Experiment 3: Measuring Energy Efficiency of Sensor Nodes  
+Simulation started...  
+Node 0 - Initial Energy: 100.0 J  
+Node 1 - Initial Energy: 100.0 J  
+Node 2 - Initial Energy: 100.0 J  
+Node 3 - Initial Energy: 100.0 J  
+Node 4 - Initial Energy: 100.0 J  
+Data Transmission in Progress...  
+Node 9 sent packets to Node 0  
+Remaining Energy Levels:  
+Node 0: 99.85 J  
+Node 1: 99.80 J  
+Node 2: 99.75 J  
+Node 9: 99.50 J  
+Simulation completed.  
+
+--------------------------------------------------
+
+# Experiment 4: Implementing a Basic Intrusion Detection System (IDS) in WSN  
+Simulation started...  
+Normal packet received.  
+Normal packet received.  
+Intrusion detected: Packet size exceeds threshold!  
+Intrusion logged for further analysis.  
+Normal packet received.  
+Normal packet received.  
+Intrusion detected: Packet size exceeds threshold!  
+Intrusion logged for further analysis.  
+Simulation completed.  
+
+--------------------------------------------------
+
+# Experiment 5: Implementing and Evaluating Node Localization Algorithms in a WSN  
+Estimated Position Calculation Started...  
+Anchor 1 Position: (0, 0, 0)  
+Anchor 2 Position: (100, 0, 0)  
+Anchor 3 Position: (50, 50, 0)  
+Measured Distances: d1 = 10.0, d2 = 10.0, d3 = 10.0  
+Estimated Position: (10.0, 10.0, 0)  
+Simulation completed.  
+
+--------------------------------------------------
+
+# Experiment 6: Implementing a Simple IoT Communication Using MQTT  
+Connected with result code 0  
+Publishing sensor data...  
+Sensor Data: Temperature = 25°C, Humidity = 60%  
+Sensor Data: Temperature = 26°C, Humidity = 58%  
+Sensor Data: Temperature = 27°C, Humidity = 55%  
+Sensor Data: Temperature = 28°C, Humidity = 53%  
+
+--------------------------------------------------
+
+# Experiment 7: Creating a Simple Home Automation System Using IoT  
+Connected to MQTT Broker  
+Publishing command: Lights ON  
+Publishing command: Lights OFF  
+
+--------------------------------------------------
+
+# Experiment 8: Building a Basic IoT Environmental Monitoring System  
+Connected to MQTT Broker  
+Publishing sensor data...  
+Temperature: 25°C, Humidity: 60%, Air Quality: 80  
+Temperature: 26°C, Humidity: 58%, Air Quality: 78  
+Temperature: 27°C, Humidity: 55%, Air Quality: 75  
+Temperature: 28°C, Humidity: 53%, Air Quality: 72  
